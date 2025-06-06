@@ -1,0 +1,5 @@
+---
+permalink: /Writeups/
+title: "Writeups"
+---
+
