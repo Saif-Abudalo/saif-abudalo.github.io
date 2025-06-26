@@ -3,5 +3,5 @@ permalink: /Writeups/
 title: "Writeups"
 ---
 
-# Writeups
-- [Aliens CTF - RSA](/Writeups/Aliens-CTF-RSA/)
+<p><a href="/Writeups/Aliens-CTF-RSA/" style="text-decoration: none; font-weight: bold;">🛸 Aliens CTF - RSA</a></p>
+
