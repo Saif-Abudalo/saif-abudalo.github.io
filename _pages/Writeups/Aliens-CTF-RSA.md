@@ -41,12 +41,14 @@ we have \(Z = p + q\) from this hint we can calculate **phi** in this way
 $$
 \phi = (p-1) \times (q-1) = pq - p - q + 1 = n - z + 1
 $$
+<br>
 
 and we know that:
 
 $$
 ed - 1 = K \times \phi \quad \Rightarrow \quad ed - 1 = K (n - z + 1)
 $$
+<br>
 
 Now rearrange the equation for \(N\) and brute force \(k\)
 
@@ -54,6 +56,7 @@ $$
 N = \frac{ed - 1}{K} + Z - 1
 $$
 
+<br>
 
 <p id="solve-code"></p>
 
