@@ -2,7 +2,8 @@
 ---
 title: "AliensCTF: Partial Key Recovery"
 date: 2025-06-26
-categories: [Writeups]
+categories:
+  - Writeups
 ---
 ## <a href="#challenge-code">Challenge</a>
 
