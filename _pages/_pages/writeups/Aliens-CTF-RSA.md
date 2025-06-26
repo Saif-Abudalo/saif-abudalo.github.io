@@ -1,8 +1,9 @@
-
 ---
 title:Aliens CTF-RSA
 category: Writeups
+permalink: /Writeups/aliens-ctf-rsa/
 ---
+
 
 ## <a href="#challenge-code">Challenge</a>
 
