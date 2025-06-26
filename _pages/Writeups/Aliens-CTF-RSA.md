@@ -48,7 +48,7 @@ $$
 ed - 1 = K \times \phi \quad \Rightarrow \quad ed - 1 = K (n - z + 1)
 $$
 
-Now rearrange the equation for \(n\) and brute force \(k\)
+Now rearrange the equation for \(N\) and brute force \(k\)
 
 $$
 N = \frac{ed - 1}{K} + Z - 1
