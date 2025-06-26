@@ -1,5 +1,5 @@
 ---
-permalink: /Writeups/Aliens-CTF-RSA.md
+permalink: /Writeups/Aliens-CTF-RSA/
 title: "Aliens CTF-RSA"
 ---
 <br>
