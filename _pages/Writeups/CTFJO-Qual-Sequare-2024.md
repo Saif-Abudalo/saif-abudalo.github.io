@@ -4,7 +4,6 @@ title: "CTFJO Qual Sequare 2024"
 ---
 <br>
 
-
 ## <a href="#challenge-code">Challenge</a>
 
 
@@ -33,14 +32,16 @@ enc = pow(flag, e, N)
 
 ### Vulnerability: Partial knowledge of $p$
 
-Since `p` is generated as `nextprime(p * 2^840)`, it's very close to `p * 2^840`.  
-This means `p` can be written as:
+Since $p$ is generated as `nextprime($p * 2^{840}$)`, it’s very close to $p * 2^{840}$.
+
+This means $p$ can be written as:
 
 $$
 p = a \times 2^{840} + x
 $$
 
-Since `x` is small, the polynomial `f(a) = a * 2^840 + x` has a small root modulo `N`, which allows us to apply **Coppersmith’s Attack** to efficiently recover `p`.
+Since $x$ is small, the polynomial $f(a) = a * 2^{840} + x$ has a small root modulo $N$, which allows us to apply **Coppersmith’s Attack** to efficiently recover $p$.
+
 
 <p id="solve-code"></p>
 
