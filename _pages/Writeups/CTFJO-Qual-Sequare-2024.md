@@ -12,22 +12,14 @@ title: "CTFJO Qual Sequare 2024"
 
 ```python
 from Crypto.Util.number import getPrime, bytes_to_long
-
 from sympy import nextprime
 
-  
-
 flag, p, q, e = bytes_to_long(b""), getPrime(512), getPrime(512), 65537
-
 p = nextprime(p * (2 ** 840))
-
 N = p * q
 
 phi = (q - 1) * (p - 1)
-
 enc = pow(flag, e, N)
-
-  
 
 # e = 65537
 
@@ -77,7 +69,6 @@ for x in range(200):
 
     if is_prime(p):
         break
-
 
 
 #ctfjo{9d1ff022330f0aaaec1bc28c3523f620}
