@@ -30,31 +30,16 @@ enc = pow(flag, e, N)
 
 ## <a href="#solve-code">Solve</a>
 
-### Vulnerability: Partial knowledge of \( p \)
+### Vulnerability: Partial knowledge of $p$
 
-Since \( p \) is generated as \(\text{nextprime}(p^* \times 2^{840})\), it is very close to:
+Since `p` is generated as `nextprime(p * 2^840)`, it's very close to `p * 2^840`.  
+This means `p` can be written as:
 
-\[
-p^* \times 2^{840}
-\]
-
-This means \( p \) can be written as:
-
-\[
+$$
 p = a \times 2^{840} + x
-\]
+$$
 
-where \( x \) is small.
-
-Since \( x \) is small, we consider the polynomial
-
-\[
-f(x) = a \times 2^{840} + x - p
-\]
-
-which has a small root \( x \) modulo \( N \).
-
-This allows us to apply **Coppersmith's Attack** to efficiently recover \( p \).
+Since `x` is small, the polynomial `f(a) = a * 2^840 + x` has a small root modulo `N`, which allows us to apply **Coppersmith’s Attack** to efficiently recover `p`.
 
 
 <p id="solve-code"></p>
