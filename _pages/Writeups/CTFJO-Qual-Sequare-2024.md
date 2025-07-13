@@ -30,7 +30,7 @@ enc = pow(flag, e, N)
 
 ## <a href="#solve-code">Solve</a>
 
-### Vulnerability: Partial knowledge of \(p\)
+### Vulnerability: Partial knowledge of `p`
 
 Since `p` is generated as `nextprime(p * 2^840)`, it's very close to `p * 2^840`.  
 This means `p` can be written as:
