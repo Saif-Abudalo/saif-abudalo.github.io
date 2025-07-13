@@ -32,7 +32,10 @@ enc = pow(flag, e, N)
 
 ### Vulnerability: Partial knowledge of $p$
 
-Since $p$ is generated as `nextprime($p * 2^{840}$)`, it’s very close to $p * 2^{840}$.
+Since $p$ is generated as `nextprime($p * 2^{840}$)`, it’s very close to 
+$$
+p * 2^{840}
+$$
 
 This means $p$ can be written as:
 
