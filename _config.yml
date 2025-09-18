@@ -60,14 +60,7 @@ plugins:
 author:
   name   : "Saif Abu-Dalo"
   avatar : "/assets/images/SK.jpg"
-  bio    : "Graduated in Cyber Security with an interest in Cryptography."
   links:
-  #  - label: "Website"
-  #    icon: "fas fa-fw fa-link"
-  #    url: "https://"
-  #  - label: "Twitter"
-  #    icon: "fab fa-fw fa-twitter-square"
-  #    url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/saif-abudalo"
@@ -78,17 +71,6 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/saif-abu-dalou-593120288/"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
