@@ -1,8 +1,8 @@
 main:
   - title: "Writeups"
     url: /Writeups/
-  - title: "Blog"
-    url: /Blog/
+ # - title: "Blog"
+ #   url: /Blog/
   - title: "Resources"
     url: /Resources/
 #  - title: "About"
