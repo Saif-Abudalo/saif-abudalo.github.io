@@ -55,13 +55,7 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
-
-feed: false
-
-# Footer settings
-footer:
-  text: ""      
-  links: []     
+     
 
 author:
   name   : "Saif Abu-Dalo"
