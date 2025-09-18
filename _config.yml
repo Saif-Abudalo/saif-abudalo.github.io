@@ -71,9 +71,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/saif-abudalo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/saiff_khaled?igsh=MTg2YTY1ZTkzYWZjbQ%3D%3D&utm_source=qr"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@saifkh01"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/saif-abu-dalou-593120288/"
 
 footer:
   links:
