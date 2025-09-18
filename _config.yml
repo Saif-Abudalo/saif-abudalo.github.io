@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Saif Abu-Dalo"
+  name   : ""
   avatar : "/assets/images/SK.jpg"
   links:
     - label: "GitHub"
