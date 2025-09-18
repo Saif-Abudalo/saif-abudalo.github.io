@@ -56,6 +56,13 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+feed: false
+
+# Footer settings
+footer:
+  text: ""      
+  links: []     
+
 author:
   name   : "Saif Abu-Dalo"
   avatar : "/assets/images/SK.jpg"
