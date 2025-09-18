@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: neon
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -79,8 +79,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
