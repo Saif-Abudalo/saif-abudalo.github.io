@@ -1,4 +1,8 @@
-
+---
+permalink: /Writeups/NCSC-Chall1-Finals-2023/
+title: "NCSC Chall#1 Finals 2023"
+---
+<br>
 
 ## <a href="#challenge-code">Challenge</a>
 
