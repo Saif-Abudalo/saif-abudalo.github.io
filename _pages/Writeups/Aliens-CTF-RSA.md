@@ -1,9 +1,8 @@
 ---
-permalink: /Writeups/CTFJO-FINAL-Cisco-Router-Configuration/
-title: "CTFJO FINAL Cisco Router Configuration"
+permalink: /Writeups/Aliens-CTF-RSA/
+title: "Aliens CTF-RSA"
 ---
 <br>
-
 
 
 ## <a href="#challenge-code">Challenge</a>
