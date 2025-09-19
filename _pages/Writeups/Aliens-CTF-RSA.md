@@ -1,6 +1,6 @@
 ---
-permalink: /Writeups/Aliens-CTF-RSA/
-title: "Aliens CTF-RSA"
+permalink: /Writeups/CTFJO-FINAL-Cisco-Router-Configuration/
+title: "CTFJO FINAL Cisco Router Configuration"
 ---
 <br>
 
