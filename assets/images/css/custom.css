@@ -1,10 +1,10 @@
 .author__avatar {
-    margin-bottom: 15px; 
+    margin-bottom: 25px; 
 }
 .author__urls {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 .author__urls > li {
-    margin-bottom: 5px; 
+    margin-bottom: 8px; 
 }
