@@ -8,7 +8,6 @@ title: "CTFJO FINAL Cisco Router Configuration"
   Challenge File
 </a>
 
-
 ### Challenge Description
 
 We were provided with a Cisco router configuration file and tasked with locating the enable password in plaintext. The configuration contained various encrypted and hashed passwords.
