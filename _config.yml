@@ -58,7 +58,8 @@ plugins:
      
 
 author:
-  name   : ""
+  name   : "
+  "
   avatar : "/assets/images/SK.jpg"
   links:
     - label: "GitHub"
