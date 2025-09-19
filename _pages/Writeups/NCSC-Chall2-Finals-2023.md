@@ -1,5 +1,5 @@
 ---
-permalink: /Writeups/NCSC-Chall2-Finals-2023.md/
+permalink: /Writeups/NCSC-Chall2-Finals-2023/
 title: "NCSC Chall#2 Finals 2023"
 ---
 <br>
