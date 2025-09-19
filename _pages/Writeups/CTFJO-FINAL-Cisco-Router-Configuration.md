@@ -12,8 +12,9 @@ title: "CTFJO FINAL Cisco Router Configuration"
 We were provided with a Cisco router configuration file and tasked with locating the enable password in plaintext. The configuration contained various encrypted and hashed passwords.
 
 ## Challenge File
-<iframe src="{{ '/assets/images/files/CTF-Cisco.pdf' | relative_url }}" width="100%" height="600"></iframe>
-
+<a href="{{ '/assets/images/files/CTF-Cisco.pdf' | relative_url }}" target="_blank">
+  Challenge File
+</a>
 in this challenge I was stuck to crack **enable password** because it is hashed in MD5, which is not easily reversible, so cracking this hash was not feasible within the given constraints, especially since the flag was not present in any well-known wordlist like **rockyou**.
 
 There are three passwords in the configuration file:
