@@ -8,3 +8,6 @@ title: "Writeups"
 
 <p><a href="/Writeups/Aliens-CTF-RSA/" style="text-decoration: none; font-weight: bold;">Aliens CTF - RSA</a></p>
 
+
+<p><a href="/Writeups/CTFJO-FINAL-Cisco-Router-Configuration/" style="text-decoration: none; font-weight: bold;">CTFJO FINAL Cisco Router Configuration</a></p>
+
