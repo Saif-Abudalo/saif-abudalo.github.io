@@ -1,0 +1,7 @@
+.author__urls {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+.author__urls > li {
+    margin-bottom: 5px; 
+}
