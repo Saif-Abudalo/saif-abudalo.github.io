@@ -12,7 +12,7 @@ title: "CTFJO FINAL Cisco Router Configuration"
 We were provided with a Cisco router configuration file and tasked with locating the enable password in plaintext. The configuration contained various encrypted and hashed passwords.
 
 ## Challenge File
-<iframe src="assets/images/files/CTF-Cisco.pdf" width="100%" height="600px"></iframe>
+<iframe src="{{ '/assets/images/files/CTF-Cisco.pdf' | relative_url }}" width="100%" height="600"></iframe>
 
 in this challenge I was stuck to crack **enable password** because it is hashed in MD5, which is not easily reversible, so cracking this hash was not feasible within the given constraints, especially since the flag was not present in any well-known wordlist like **rockyou**.
 
@@ -23,12 +23,12 @@ line con 0 password 7 08204E4D291A0A1901040001
 enable secret 5 $1$mERr$8vWGHtwDX7z6lp2VZQJj81
 ```
 
-When you configure your router and set the command `enable secret 5` it **is** used to hash the password using MD5 as shown:
+When you configure your router and set the command `enable secret 5` it is used to hash the password using MD5 as shown:
 
 ```
 enable secret 5 $1$mERr$8vWGHtwDX7z6lp2VZQJj81
 ```
-- `'$1$` →  **MD5**
+- `'$1$` →  MD5
 - `mERr$8vWGHtwDX7z6lp2VZQJj81` → hash + salt
 
 
@@ -47,7 +47,7 @@ There are many online tools  available that can immediately crack Cisco type 7 e
 - `username user1 password 7 08204E4D290C1612005A` → `abc@user1`
 - `line con 0 password 7 08204E4D291A0A1901040001` → `abc@console`
 
-The core idea in this challenge is that when the admin configured the password there was a pattern he used which is `abc@xxxxxx`. when he wanted to set **a** password for line console he used `abc@console` so of course when he tried to set **a** password for enable mode he used `abc@enable`.
+The core idea in this challenge is that when the admin configured the password there was a pattern he used which is `abc@xxxxxx`. when he wanted to set a password for line console he used `abc@console` so of course when he tried to set a password for enable mode he used `abc@enable`.
 
 
 Flag: 
