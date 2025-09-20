@@ -45,7 +45,7 @@ In this challenge, I faced difficulty understanding the value for `eq1`. This wa
 
 However, from **Euler’s Theorem**:  
 $$
-a^{\varphi(n)} \equiv 1 \pmod{n}
+\displaystyle a^{\varphi(n)} \equiv 1 \pmod{n}
 $$
 
 So it should actually be:  
