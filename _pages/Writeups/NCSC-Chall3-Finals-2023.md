@@ -24,11 +24,13 @@ This challenge was really fun! We were given:
   ct_1, ct_2, \dots, ct_{100}
   $$
 
+
 - The public exponent:
   
   $$
   e = 65537
   $$
+
 
 The flag was encrypted 100 times with different moduli.
 
@@ -55,6 +57,7 @@ $$
 \gcd(N_i, N_j) = 1 \quad \text{for all } i \neq j
 $$
 
+
 After trying to apply CRT, I realized that this condition did not apply to our moduli. Since the moduli were not coprime, CRT wasn’t going to work here.  
 But the good thing is, because this condition didn’t hold, we could take advantage of it: by computing the **GCD** between the moduli, we could find a shared factor. 
 
@@ -62,11 +65,13 @@ $$
 p = \gcd(N_1, N_2, \dots, N_k)
 $$
 
+
 Once we had a factor $p$, we could calculate the corresponding $q$ for that particular $N$ and use it to decrypt the ciphertext that was encrypted with that modulus.
 
 $$
 q = \frac{N_i}{p}
 $$
+
 
 <p id="solve-code"></p>
 
