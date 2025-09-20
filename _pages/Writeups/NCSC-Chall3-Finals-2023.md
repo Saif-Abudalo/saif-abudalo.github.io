@@ -4,6 +4,10 @@ title: "NCSC Chall#3 Finals 2023"
 ---
 <br>
 
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 <h3>
   <a href="assets/images/files/public_ciphers.txt" download style="text-decoration: none; color: inherit;">
     Challenge File
@@ -105,6 +109,4 @@ for i in range(len(ns)):
 #FLAG{sharing_caring?that's_not_caring_for_me}
 ```
 
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+
