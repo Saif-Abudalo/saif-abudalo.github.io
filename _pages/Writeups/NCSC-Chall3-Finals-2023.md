@@ -8,11 +8,10 @@ title: "NCSC Chall#3 Finals 2023"
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-<h3>
-  <a href="assets/images/files/public_ciphers.txt" download style="text-decoration: none; color: inherit;">
-    Challenge File
-  </a>
-</h3>
+<a href="{{ '/assets/images/files/public_ciphers.txt' | relative_url }}" download>
+  Challenge File
+</a>
+
 
 This challenge was really fun! We were given:  
 
