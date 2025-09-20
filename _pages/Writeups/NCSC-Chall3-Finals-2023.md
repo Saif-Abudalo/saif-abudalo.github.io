@@ -1,3 +1,8 @@
+---
+permalink: /Writeups/NCSC-Chall2-Finals-2023/
+title: "NCSC Chall#2 Finals 2023"
+---
+<br>
 
 <h3>
   <a href="assets/images/files/public_ciphers.txt" download style="text-decoration: none; color: inherit;">
