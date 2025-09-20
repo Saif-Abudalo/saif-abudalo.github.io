@@ -1,6 +1,6 @@
 ---
-permalink: /Writeups/NCSC-Chall2-Finals-2023/
-title: "NCSC Chall#2 Finals 2023"
+permalink: /Writeups/NCSC-Chall3-Finals-2023/
+title: "NCSC Chall#3 Finals 2023"
 ---
 <br>
 
@@ -69,6 +69,7 @@ q = \frac{N_i}{p}
 $$
 
 <p id="solve-code"></p>
+
 ```python
  from Crypto.Util.number import long_to_bytes, inverse
 
