@@ -77,7 +77,7 @@ $$
 <p id="solve-code"></p>
 
 ```python
- from Crypto.Util.number import long_to_bytes, inverse
+from Crypto.Util.number import long_to_bytes, inverse
 
 
 def euclidean_gcd(a, b):
