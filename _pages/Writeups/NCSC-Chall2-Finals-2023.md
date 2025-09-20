@@ -41,27 +41,32 @@ n : 5113434944391056330946713205611485417298606133904661765784958625027769432976
 
 ## <a href="#solve-code">Solve</a>
 
-In this challenge, I faced difficulty understanding the value for `eq1`. This was because of the order of operations in the expression. The large constant is only being raised to the power of **(p-1)**, not to **(p-1)(q-1)** as I initially assumed.
+In this challenge, I faced difficulty understanding the value for eq1. This was because of the order of operations in the expression. The large constant is only being raised to the power of (p-1), not to (p-1)(q-1) as I initially assumed.
 
-However, from **Euler’s Theorem**:  
+However, from Euler’s Theorem:  
+
 $$
 \displaystyle a^{\varphi(n)} \equiv 1 \pmod{n}
 $$
 
 So it should actually be:  
+
 $$
 eq1 = 806892 + 1
 $$
 
 the rest of the challenge is just **Modular Binomials**. We have:
+
 $$
 output1 = (p - 2q)^{coef1} \mod n
 $$
+
 $$
 output2 = (p + 3q)^{coef2} \mod n
 $$
 
 I just raised each output to the other’s exponent:
+
 $$
 x = output2^{coef1} \mod n
 $$
@@ -71,6 +76,7 @@ y = output1^{coef2} \mod n
 $$
 
 Now `x` and `y`  are on the same exponent: `cof1.cof2`. we basically have **two equations in two variables**  so we can subtract them:
+
 $$
 x = \left( p + 3q \right)^{coef1 \cdot coef2} \mod n
 $$
@@ -80,6 +86,7 @@ y = \left( p - 2q \right)^{coef1 \cdot coef2} \mod n
 $$
 
 And now:
+
 $$
 x - y = \left( p + 3q \right)^{coef1 \cdot coef2} - \left( p - 2q \right)^{coef1 \cdot coef2} \mod n
 $$
@@ -93,10 +100,12 @@ $$
 x - y = (3q)^{\text{coef1} \cdot \text{coef2}} + (2q)^{\text{coef1} \cdot \text{coef2}}
 $$
 
- So the value for `p`:
+So the value for `p`:
+
 $$
 p = \gcd(n, x - y)
 $$
+
 <p id="solve-code"></p>
 
 ```python
