@@ -49,11 +49,13 @@ $$
 \displaystyle a^{\varphi(n)} \equiv 1 \pmod{n}
 $$
 
+
 So it should actually be:  
 
 $$
 eq1 = 806892 + 1
 $$
+
 
 the rest of the challenge is just **Modular Binomials**. We have:
 
@@ -65,6 +67,7 @@ $$
 output2 = (p + 3q)^{coef2} \mod n
 $$
 
+
 I just raised each output to the other’s exponent:
 
 $$
@@ -75,6 +78,7 @@ $$
 y = output1^{coef2} \mod n
 $$
 
+
 Now `x` and `y`  are on the same exponent: `cof1.cof2`. we basically have **two equations in two variables**  so we can subtract them:
 
 $$
@@ -84,6 +88,7 @@ $$
 $$
 y = \left( p - 2q \right)^{coef1 \cdot coef2} \mod n
 $$
+
 
 And now:
 
@@ -100,11 +105,13 @@ $$
 x - y = (3q)^{\text{coef1} \cdot \text{coef2}} + (2q)^{\text{coef1} \cdot \text{coef2}}
 $$
 
+
 So the value for `p`:
 
 $$
 p = \gcd(n, x - y)
 $$
+
 
 <p id="solve-code"></p>
 
