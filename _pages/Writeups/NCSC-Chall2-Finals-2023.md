@@ -78,7 +78,6 @@ $$
 y = output1^{coef2} \mod n
 $$
 
-Now \(x\) and \(y\) are on the same exponent: \(cof1 \cdot cof2\). We basically have **two equations in two variables**, so we can subtract them:
 Now `x` and `y`  are on the same exponent: `cof1.cof2`. we basically have **two equations in two variables**  so we can subtract them:
 
 $$
