@@ -1,6 +1,7 @@
 ---
 permalink: /Writeups/NCSC-Chall3-Finals-2023/
 title: "NCSC Chall#3 Finals 2023"
+mathjax: true
 ---
 <br>
 
