@@ -24,13 +24,11 @@ This challenge was really fun! We were given:
   ct_1, ct_2, \dots, ct_{100}
   $$
 
-
 - The public exponent:
   
   $$
   e = 65537
   $$
-
 
 The flag was encrypted 100 times with different moduli.
 
@@ -106,3 +104,7 @@ for i in range(len(ns)):
 
 #FLAG{sharing_caring?that's_not_caring_for_me}
 ```
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
