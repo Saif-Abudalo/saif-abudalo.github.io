@@ -67,8 +67,7 @@ $$
 p = \gcd(N_1, N_2, \dots, N_k)
 $$
 
-
-Once we had a factor $p$, we could calculate the corresponding $q$ for that particular $N$ and use it to decrypt the ciphertext that was encrypted with that modulus.
+Once we had a factor \(p\), we could calculate the corresponding \(q\) for that particular \(N\) and use it to decrypt the ciphertext that was encrypted with that modulus.
 
 $$
 q = \frac{N_i}{p}
