@@ -19,11 +19,13 @@ This challenge was really fun! We were given:
   $$
 
 - 100 corresponding ciphertexts:
+  
   $$
   ct_1, ct_2, \dots, ct_{100}
   $$
 
 - The public exponent:
+  
   $$
   e = 65537
   $$
@@ -36,6 +38,7 @@ At first, I thought about using the **Chinese Remainder Theorem (CRT)** to solve
 
  **CRT Theorem:**  
 Suppose you have the following system of congruences:  
+
 $$
 \begin{cases}
 x \equiv a_1 \pmod{N_1} \\
@@ -47,6 +50,7 @@ $$
 
 **Condition for CRT:**  
 All moduli must be coprime:  
+
 $$
 \gcd(N_i, N_j) = 1 \quad \text{for all } i \neq j
 $$
