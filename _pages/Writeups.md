@@ -17,3 +17,6 @@ title: "Writeups"
 
 <p><a href="/Writeups/NCSC-Chall2-Finals-2023/" style="text-decoration: none; font-weight: bold;">NCSC Chall#2 Finals 2023</a></p>
 
+
+<p><a href="/Writeups/NCSC-Chall3-Finals-2023/" style="text-decoration: none; font-weight: bold;">NCSC Chall#3 Finals 2023</a></p>
+
