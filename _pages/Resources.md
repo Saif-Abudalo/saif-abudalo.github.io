@@ -1,4 +1,7 @@
-
+---
+permalink: /Resources/
+title: "Resources"
+---
 
 ## Recommended
 - [**Codeforces**](https://codeforces.com/) & [**HackerRank**](https://www.hackerrank.com/dashboard) – Problem-solving.  
