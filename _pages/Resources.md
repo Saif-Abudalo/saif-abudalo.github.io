@@ -10,7 +10,8 @@ title: "Resources"
 - [**TryHackMe**](https://tryhackme.com/) – beginner-friendly labs.  
 - [**Hack The Box**](https://www.hackthebox.com/) – More advanced.  
 - [**VeraCrypt**](https://veracrypt.io/en/Home.html) – Open-source tool for encrypting files or drives.  
-- [**Sublime Text**](https://www.sublimetext.com/) – Lightweight code editor.  
+- [**Sublime Text**](https://www.sublimetext.com/) – Lightweight code editor.
+- [VirusTotal](https://www.virustotal.com/gui/home/url) – Scan files and URLs with multiple antivirus engines.  
 - [**Obsidian**](https://obsidian.md/) – Note taking and knowledge management.  
 - [**Notion**](https://www.notion.so/) – All-in-one workspace for notes and documentation.
 
@@ -71,7 +72,6 @@ title: "Resources"
 
 ## Reverse Engineering
 - [Practical Malware Analysis Book](https://www.nostarch.com/malware) – Great reference for RE & malware.
-- [VirusTotal](https://www.virustotal.com/gui/home/url) – Scan files and URLs with multiple antivirus engines.  
 - [Online x86 Assembler/Disassembler](https://defuse.ca/online-x86-assembler.htm#disassembly) – Browser-based assembly and disassembly tool.  
 - [IDA Pro](https://hex-rays.com/ida-pro/) – Industry-standard interactive disassembler and debugger.  
 - [Ghidra](https://www.kali.org/tools/ghidra//) – Open-source software reverse engineering suite.  
