@@ -11,7 +11,7 @@ title: "Resources"
 - [**Hack The Box**](https://www.hackthebox.com/) – More advanced.  
 - [**VeraCrypt**](https://veracrypt.io/en/Home.html) – Open-source tool for encrypting files or drives.  
 - [**Sublime Text**](https://www.sublimetext.com/) – Lightweight code editor.
-- [VirusTotal](https://www.virustotal.com/gui/home/url) – Scan files and URLs with multiple antivirus engines.  
+- [**VirusTotal**](https://www.virustotal.com/gui/home/url) – Scan files and URLs with multiple antivirus engines.  
 - [**Obsidian**](https://obsidian.md/) – Note taking and knowledge management.  
 - [**Notion**](https://www.notion.so/) – All-in-one workspace for notes and documentation.
 
