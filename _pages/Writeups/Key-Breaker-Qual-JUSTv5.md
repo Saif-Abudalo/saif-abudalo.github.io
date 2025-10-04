@@ -1,3 +1,8 @@
+---
+permalink: /Writeups/Key-Breaker-Qual-JUSTv5/
+title: "Key Breaker Qual-JUSTv5"
+---
+<br>
 
 
 ## Challenge
