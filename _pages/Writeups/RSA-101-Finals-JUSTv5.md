@@ -48,7 +48,9 @@ Therefore:
 $$
 \phi(N) - 1 = N - p - q 
 
-$$Our equation:
+$$
+
+Our equation:
 
 $$
 H = (e \cdot d)^{N - p - q} \bmod N,
