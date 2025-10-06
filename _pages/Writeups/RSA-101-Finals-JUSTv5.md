@@ -29,6 +29,10 @@ So the server gives us:
 H = pow(e * d, N - p - q, N)
 ```
 
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 
 ## <a href="#solve-code">Solve</a>
 
