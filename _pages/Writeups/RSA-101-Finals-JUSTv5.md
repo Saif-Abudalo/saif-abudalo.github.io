@@ -22,9 +22,19 @@ Totient (HEX format) >
 ```
 
 So the server gives us:
-- The RSA public modulus `N`  
-- The public exponent `e`  
-- A value `H` computed as:
+- The RSA public modulus
+$$
+N
+$$
+- The public exponent 
+$$
+e
+$$
+- A value 
+$$
+H
+$$
+computed as:
 ```
 H = pow(e * d, N - p - q, N)
 ```
