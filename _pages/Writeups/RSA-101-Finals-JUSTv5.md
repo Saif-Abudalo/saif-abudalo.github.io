@@ -38,40 +38,48 @@ Euler's totient  $N = p q$ is:
 $$
 \phi(N) = (p-1)(q-1) = N - (p + q) + 1.
 $$
+
 Therefore:
 
 $$
 \phi(N) - 1 = N - p - q 
+
 $$Our equation:
 
 $$
 H = (e \cdot d)^{N - p - q} \bmod N,
 $$
+
 we substitute:
 
 $$
 H = (e \cdot d)^{\phi - 1} \bmod N.
 $$
+
 We can split the exponent $(\phi - 1)$ as $\phi + (-1)$, So we can rewrite:
 
 $$
 H \equiv (e\cdot d)^{\phi} \cdot (e\cdot d)^{-1} \pmod{N}.
 $$
+
 From Euler’s theorem:
 
 $$
 (e\cdot d)^{\phi} \equiv 1 \pmod{N}.
 $$
+
 So:
 
 $$
 H \equiv (e\cdot d)^{-1} \pmod{N}.
 $$
+
 From RSA key relations there exists an integer $k$ such that:
 
 $$
 e \cdot d = 1 + k \cdot \phi.
 $$
+
 Replace our value of `e*d`:
 
 $$
@@ -91,21 +99,25 @@ Multiply both sides by the inverse of \(H\) modulo \(N\):
 $$
 1 + k \phi \equiv H^{-1} \pmod{N}
 $$
+
 Then:
 
 $$
 k \phi \equiv H^{-1} - 1 \pmod{N}
 $$
+
 Finally:
 
 $$
 \phi \equiv \bigl((H^{-1} \bmod N) - 1\bigr) \cdot (k^{-1} \bmod N) \pmod{N}
 $$
+
 Then compute the private key $d$ as:
 
 $$
 d = \frac{1 + k \cdot \phi}{e}
 $$
+
 Verify the candidate by checking:
 
 $$
