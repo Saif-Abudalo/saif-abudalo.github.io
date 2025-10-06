@@ -92,7 +92,11 @@ $$
 e \cdot d = 1 + k \cdot \phi.
 $$
 
-Replace our value of `e*d`:
+Replace our value of 
+$$
+e \cdot d
+$$
+:
 
 $$
 H \equiv (1 + k \phi)^{-1} \pmod{N}
