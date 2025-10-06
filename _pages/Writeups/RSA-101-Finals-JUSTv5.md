@@ -116,7 +116,15 @@ $$
 H \cdot (1 + k \phi) \equiv 1 \pmod{N}
 $$
 
-Multiply both sides by the inverse of \(H\) modulo \(N\):
+Multiply both sides by the inverse of 
+$$
+H
+$$
+modulo
+$$
+N
+$$
+:
 
 $$
 1 + k \phi \equiv H^{-1} \pmod{N}
