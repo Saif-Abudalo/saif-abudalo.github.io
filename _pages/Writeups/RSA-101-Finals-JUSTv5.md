@@ -23,10 +23,7 @@ Totient (HEX format) >
 
 So the server gives us:
 - The RSA public modulus `N`
-- The public exponent 
-$$
-e
-$$
+- The public exponent `e`
 - A value `H`
 computed as:
 ```
