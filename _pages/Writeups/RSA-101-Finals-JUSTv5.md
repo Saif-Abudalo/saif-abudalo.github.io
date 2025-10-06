@@ -132,7 +132,11 @@ $$
 \phi \equiv \bigl((H^{-1} \bmod N) - 1\bigr) \cdot (k^{-1} \bmod N) \pmod{N}
 $$
 
-Then compute the private key $d$ as:
+Then compute the private key 
+$$
+d
+$$
+as:
 
 $$
 d = \frac{1 + k \cdot \phi}{e}
@@ -144,7 +148,23 @@ $$
 H \stackrel{?}{=} (e \cdot d)^{\phi - 1} \bmod N
 $$
 
-Brute-force $k$ in the range $[1, e)$. Once verification passes, send $\phi$ to the server. The server will return the secret $c$.
+Brute-force 
+$$
+k
+$$
+in the range 
+$$
+[1, e)
+$$
+. Once verification passes, send 
+$$
+\phi
+$$
+to the server. The server will return the secret 
+$$
+c
+$$
+.
 
 <p id="solve-code"></p>
 
