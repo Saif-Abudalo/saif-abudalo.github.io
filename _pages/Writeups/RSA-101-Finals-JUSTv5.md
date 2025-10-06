@@ -86,7 +86,7 @@ $$
 H \equiv (e\cdot d)^{-1} \pmod{N}.
 $$
 
-From RSA key relations there exists an integer $k$ such that:
+From RSA key relations there exists an integer \(k\) such that:
 
 $$
 e \cdot d = 1 + k \cdot \phi.
