@@ -38,9 +38,6 @@ H = pow(e * d, N - p - q, N)
 
 
 Euler's totient is:
-$$
-N = p \cdot q
-$$
 
 $$
 \phi(N) = (p-1)(q-1) = N - (p + q) + 1.
