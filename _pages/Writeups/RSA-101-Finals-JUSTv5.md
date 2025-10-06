@@ -62,11 +62,13 @@ $$
 H = (e \cdot d)^{\phi - 1} \bmod N.
 $$
 
-We can split the exponent 
-$(\phi - 1)$
-as 
-$\phi + (-1)$
-, so we can rewrite:
+We can split the exponent:
+
+$$
+(\phi - 1) = \phi + (-1)
+$$
+
+So we can rewrite:
 
 $$
 H \equiv (e\cdot d)^{\phi} \cdot (e\cdot d)^{-1} \pmod{N}.
