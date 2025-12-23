@@ -108,7 +108,7 @@ $$
 where
 
 $$
-p_i, q_i \in \text{prime\_list}
+p_i, q_i \in \text{prime\ list}
 $$
 
 Then:
