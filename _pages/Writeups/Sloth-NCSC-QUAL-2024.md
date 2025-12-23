@@ -81,7 +81,14 @@ while True:
 
 ## <a href="#solve-code">Solve</a>
 
-First, the challenge gives us a small prime, 32771, and from there it keeps generating the next primes until we have a full list of 16‑bit primes. Basically, it’s building a prime list that will later be used to construct `p` and  `q`
+First, the challenge gives us a small prime, 32771, and from there it keeps generating the next primes until we have a full list of 16‑bit primes. Basically, it’s building a prime list that will later be used to construct 
+$$
+p
+$$
+and
+$$
+q
+$$
 
 ```python 
 prime_list=[32771]
