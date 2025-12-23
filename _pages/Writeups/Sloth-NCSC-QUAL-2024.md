@@ -146,8 +146,7 @@ is coprime with
 $$
 n
 $$.
-
-In the challenge, we defined:
+ In the challenge, we defined:
 
 $$
 y = 4 \cdot \prod_{i=0}^{199} p_i
