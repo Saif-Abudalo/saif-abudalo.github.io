@@ -1,3 +1,8 @@
+---
+permalink: /Writeups/Sloth-NCSC-QUAL-2024/
+title: "Sloth – NCSC QUAL 2024"
+---
+<br>
 
 
 ## Challenge Description
@@ -193,5 +198,7 @@ print(io.readline())
 
 #flag{8b3fd475ce65757c0c4d0453f3e4f996}
 ```
-
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
