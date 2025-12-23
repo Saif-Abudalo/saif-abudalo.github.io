@@ -138,7 +138,11 @@ $$
 y = 4 \cdot \prod_{i=0}^{199} p_i
 $$
 
-and for each prime $i$ in the list, we tested:
+and for each prime 
+$$
+i
+$$
+in the list, we tested:
 
 $$
 x^{y/i} \mod n
