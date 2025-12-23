@@ -158,7 +158,11 @@ $$
 x^{\phi(n)/i} \not\equiv 1 \pmod{n} \quad \Rightarrow \text{Pong}
 $$
 
-- If $i \nmid \phi(n)$, then 
+- If
+$$
+i \nmid \phi(n)
+$$
+, then 
 
 $$
 x^{y/i} \equiv 1 \pmod{n} \quad \Rightarrow \text{Ping}
