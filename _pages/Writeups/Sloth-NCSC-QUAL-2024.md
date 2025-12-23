@@ -98,11 +98,18 @@ prime_list = [32771, 32779, 32783, 32789, 32797, 32801, 32803, 32831, 32833, 328
 
 ### Generating `p` and `q`
 
-The primes `p` and `q` are generated as
-$p = 2 \cdot \prod_{i=0}^{9} p_i + 1$
-and
-$q = 2 \cdot \prod_{i=0}^{9} q_i + 1$
-, where each $p_i$ and $q_i$ is randomly chosen from the prime list.
+The primes p and q are generated as:
+
+$$
+p = 2 \cdot \prod_{i=0}^{9} p_i + 1
+$$
+
+$$
+q = 2 \cdot \prod_{i=0}^{9} q_i + 1
+$$
+
+where each \(p_i\) and \(q_i\) is randomly chosen from the prime list.
+
 
 
 We have:
