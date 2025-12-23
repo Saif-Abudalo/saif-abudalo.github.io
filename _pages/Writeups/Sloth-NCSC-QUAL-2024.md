@@ -123,7 +123,14 @@ $$
 x^{\phi(n)} \equiv 1 \pmod{n}
 $$
 
-where $x$ is coprime with $n$.
+where 
+$$
+x
+$$
+is coprime with 
+$$
+n
+$$.
 
 In the challenge, we defined:
 
