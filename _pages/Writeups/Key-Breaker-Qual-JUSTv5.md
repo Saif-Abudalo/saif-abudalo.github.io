@@ -7,7 +7,7 @@ title: "Key Breaker Qual-JUSTv5"
 
 ## Challenge
 
-In this challenge, the server sends out a **PEM‑encoded RSA key** When connecting with `nc` the server prints:
+In this challenge, the server sends out a **PEM‑encoded RSA key** When connecting with $nc$ the server prints:
 
 ```
 b'-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBK...'
@@ -19,7 +19,7 @@ Enter q> 136762398106174401793914029...
 ## <a href="#solve-code">Solve</a>
 
 
-Because the server provides a PEM block beginning with <br> `-----BEGIN PRIVATE KEY-----`, it contains the full RSA key material  `n`, `e`, `d`, `p`, `q`, `dp`, `dq`. All we need to do is parse the PEM, extract the values of `p` and `q`, and send them back to the server until we get our flag.
+Because the server provides a PEM block beginning with <br> `-----BEGIN PRIVATE KEY-----`, it contains the full RSA key material  $n, e, d, p, q, dp, dq$. All we need to do is parse the PEM, extract the values of $p$ and $q$, and send them back to the server until we get our flag.
 
 <p id="solve-code"></p>
 
@@ -64,3 +64,15 @@ if __name__ == "__main__":
 
 #JUST{d2a4da20863a42a7a75eb466a3e3f730}
 ```
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
