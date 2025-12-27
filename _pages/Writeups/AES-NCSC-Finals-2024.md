@@ -1,5 +1,5 @@
 ---
-permalink: /Writeups/Sloth-NCSC-QUAL-2024/
+permalink: /Writeups/AES-NCSC-Finals-2024/
 title: "AES NCSC Finals 2024"
 ---
 <br>
