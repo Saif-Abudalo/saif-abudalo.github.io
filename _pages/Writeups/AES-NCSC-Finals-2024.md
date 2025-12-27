@@ -116,7 +116,7 @@ for i in range(0, 256):
                     pass
 ```
 
-So we waited... two hours. 
+So we waited ... two hours. 
 
 python is great, but $256^4$ operations are really slow. I moved the same logic to C++ because it’s much faster than Python.
 
