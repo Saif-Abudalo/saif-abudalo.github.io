@@ -31,7 +31,7 @@ open("output.txt","w").write(flag.hex())
 #9378c177d525efede9b36a64f12efd710d966a654ca9694edf2a07493b19863e4ca1b71ad5f5a23e161caa178e52c68cfdc1de62631188d7e94e1805eaeb908c
 ```
 
-
+<br>
 In this challenge, the flag is encrypted using AES in ECB mode (deterministic), applied four times, where each key is generated from a single byte repeated 16 times, and PKCS#7 padding is added before encryption.
 
 Each AES key is generated as:
@@ -382,7 +382,7 @@ if not found:
 
 ```
 
-
+<br>
 
 **As a result:**
 - Brute-force in Python took ~2 hours  
