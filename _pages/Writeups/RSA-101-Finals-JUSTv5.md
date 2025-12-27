@@ -22,18 +22,14 @@ Totient (HEX format) >
 ```
 
 So the server gives us:
-- The RSA public modulus `N`
-- The public exponent `e`
-- A value `H`
+- The RSA public modulus $N$
+- The public exponent $e$
+- A value $H$
 computed as:
 
 $$
 H = (e \cdot d)^{N - p - q} \bmod N,
 $$
-
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 
 ## <a href="#solve-code">Solve</a>
