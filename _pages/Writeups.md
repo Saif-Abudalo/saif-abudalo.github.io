@@ -31,5 +31,8 @@ title: "Writeups"
 <p><a href="/Writeups/Sloth-NCSC-QUAL-2024/" style="text-decoration: none; font-weight: bold;">Sloth NCSC Qual 2024</a></p>
 
 
+<p><a href="/Writeups/AES-NCSC-Finals-2024/" style="text-decoration: none; font-weight: bold;">AES NCSC Finals 2024</a></p>
+
+
 
 
