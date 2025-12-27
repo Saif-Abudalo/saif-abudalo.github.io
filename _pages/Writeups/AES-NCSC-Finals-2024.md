@@ -382,8 +382,8 @@ if not found:
 ```
 
 
-**As a result:**
 
+**As a result:**
 • Brute-force in Python took ~2 hours  
 • Brute-force in C++ finished in under 10 minutes  
 • Meet-in-the-Middle finished in seconds
