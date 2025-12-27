@@ -5,10 +5,6 @@ mathjax: true
 ---
 <br>
 
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
 <a href="{{ '/assets/images/files/public_ciphers.txt' | relative_url }}" download>
   Challenge File
 </a>
@@ -67,7 +63,7 @@ $$
 p = \gcd(N_1, N_2, \dots, N_k)
 $$
 
-Once we had a factor \(p\), we could calculate the corresponding \(q\) for that particular \(N\) and use it to decrypt the ciphertext that was encrypted with that modulus.
+Once we had a factor $p$, we could calculate the corresponding $q$ for that particular $N$ and use it to decrypt the ciphertext that was encrypted with that modulus.
 
 $$
 q = \frac{N_i}{p}
@@ -108,4 +104,15 @@ for i in range(len(ns)):
 #FLAG{sharing_caring?that's_not_caring_for_me}
 ```
 
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
