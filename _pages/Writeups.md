@@ -3,7 +3,6 @@ permalink: /Writeups/
 title: "Writeups"
 ---
 
-<br>
 
 <p><a href="/Writeups/NCSC-Chall1-Finals-2023/" style="text-decoration: none; font-weight: bold;">NCSC Chall#1 Finals 2023</a></p>
 
