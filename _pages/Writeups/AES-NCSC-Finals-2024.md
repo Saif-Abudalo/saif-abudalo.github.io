@@ -7,6 +7,7 @@ title: "AES NCSC Finals 2024"
 ## <a href="#challenge-code">Challenge</a>
 
 <p id="challenge-code"></p>
+
 ```python
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
