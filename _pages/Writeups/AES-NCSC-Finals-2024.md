@@ -275,6 +275,7 @@ It worked! C++ finished it in about 10 minutes, but it was still inefficient for
 
 <br>
 To optimize our solution, we can use a **Meet-in-the-Middle** attack. This technique exploits the fact that encryption layers are independent (since ECB mode is deterministic). 
+<br>
 Instead of attacking the full 4 layer depth, we meet at the **2-layer midpoint**. We precompute the state after two encryptions and store it in lookup table. Then, we decrypt the last ciphertext block and look for a match. once a match is found, all four keys are recovered at once.
 ### The Midpoint Concept
 
