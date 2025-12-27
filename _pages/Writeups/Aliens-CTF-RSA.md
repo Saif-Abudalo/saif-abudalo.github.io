@@ -1,6 +1,6 @@
 ---
 permalink: /Writeups/Aliens-CTF-RSA/
-title: "Aliens CTF-RSA"
+title: "Aliens CTF RSA"
 ---
 <br>
 
@@ -35,7 +35,7 @@ d =30457311326725662835214016666844881462445051263981028375137823295574368019980
 
 
 ## <a href="#solve-code">Solve</a>
-we have \(Z = p + q\) from this hint we can calculate **phi** in this way
+we have $Z = p + q$ from this hint we can calculate $\phi$ in this way
 
 $$
 \phi = (p-1) \times (q-1) = pq - p - q + 1 = n - z + 1
@@ -49,7 +49,7 @@ ed - 1 = K \times \phi \quad \Rightarrow \quad ed - 1 = K (n - z + 1)
 $$
 <br>
 
-Now rearrange the equation for \(N\) and brute force \(k\)
+Now rearrange the equation for $N$ and brute force $k$
 
 $$
 N = \frac{ed - 1}{K} + Z - 1
@@ -78,6 +78,14 @@ for k in trange(28_000, e):
 
 #AliensCTF{partialKeyIsNiceIdia}
 ```
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
 
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
