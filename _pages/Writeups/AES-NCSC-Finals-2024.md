@@ -383,11 +383,18 @@ if not found:
 
 
 **As a result:**
+
 • Brute-force in Python took ~2 hours  
 • Brute-force in C++ finished in under 10 minutes  
 • Meet-in-the-Middle finished in seconds
 
-
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
 
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
