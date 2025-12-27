@@ -1,6 +1,6 @@
 ---
 permalink: /Writeups/Sloth-NCSC-QUAL-2024/
-title: "Sloth – NCSC QUAL 2024"
+title: "Sloth NCSC Qual 2024"
 ---
 <br>
 
