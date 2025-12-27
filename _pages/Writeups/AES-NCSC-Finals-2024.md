@@ -267,12 +267,15 @@ It worked! C++ finished it in about 10 minutes, but it was still inefficient for
 
  Since the ciphertext length is 64 bytes (a multiple of 16), and the `pad()` function was used, we can assume the last block is a full block of PKCS#7 padding (`\x10` repeated 16 times).
  Therefore The **last plaintext block before encryption** is:
+<br>
  
  ```
 \x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10
  ```
 
-To optimize our solution, we can use a **Meet-in-the-Middle** attack. This technique exploits the fact that encryption layers are independent (since ECB mode is deterministic). Instead of attacking the full 4 layer depth, we meet at the **2-layer midpoint**. We precompute the state after two encryptions and store it in lookup table. Then, we decrypt the last ciphertext block and look for a match. once a match is found, all four keys are recovered at once.
+<br>
+To optimize our solution, we can use a **Meet-in-the-Middle** attack. This technique exploits the fact that encryption layers are independent (since ECB mode is deterministic). 
+Instead of attacking the full 4 layer depth, we meet at the **2-layer midpoint**. We precompute the state after two encryptions and store it in lookup table. Then, we decrypt the last ciphertext block and look for a match. once a match is found, all four keys are recovered at once.
 ### The Midpoint Concept
 
 
