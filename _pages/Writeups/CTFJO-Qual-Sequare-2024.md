@@ -30,16 +30,16 @@ enc = pow(flag, e, N)
 
 ## <a href="#solve-code">Solve</a>
 
-### Vulnerability: Partial knowledge of `p`
+### Vulnerability: Partial knowledge of $p$
 
-Since `p` is generated as `nextprime(p * 2^840)`, it's very close to `p * 2^840`.  
-This means `p` can be written as:
+Since $p$ is generated as  $\text{next\_prime}(\text{p} \cdot 2^{840})$, it's very close to $p \cdot 2^{840}$.  
+This means $p$ can be written as:
 
 $$
 p = a \times 2^{840} + x
 $$
 
-Since `x` is small, the polynomial `f(a) = a * 2^840 + x` has a small root modulo `N`, which allows us to apply **Coppersmith’s Attack** to efficiently recover `p`.
+Since $x$ is small, the polynomial $f(a) = \text{a} \cdot 2^{840} + x$ has a small root modulo $N$, which allows us to apply **Coppersmith’s Attack** to efficiently recover $p$.
 
 
 <p id="solve-code"></p>
@@ -79,10 +79,16 @@ for x in range(200):
 ## Reference
 
 - [Coppersmith’s Method](https://en.wikipedia.org/wiki/Coppersmith_method)
-- [`SageMath`](https://doc.sagemath.org/html/en/reference/polynomial_rings/sage/rings/polynomial/polynomial_modn_dense_ntl.html#sage.rings.polynomial.polynomial_modn_dense_ntl.small_roots)
+- [SageMath](https://doc.sagemath.org/html/en/reference/polynomial_rings/sage/rings/polynomial/polynomial_modn_dense_ntl.html#sage.rings.polynomial.polynomial_modn_dense_ntl.small_roots)
 
 
-
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
 
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
