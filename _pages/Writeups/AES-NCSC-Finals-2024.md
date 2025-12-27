@@ -123,6 +123,7 @@ python is great, but $256^4$ operations are really slow. I moved the same logic 
 <p id="solve-code-1"></p>
 
 ```cpp
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #include <iostream>
 #include <vector>
 #include <cstring>      
@@ -187,6 +188,7 @@ int main() {
     volatile bool solution_found = false; 
 
     // Parallelize the outer two loops
+#pragma omp parallel for collapse(2) schedule(static) shared(solution_found)
     for (int i = 0; i < 256; ++i) {
         for (int j = 0; j < 256; ++j) {
             
