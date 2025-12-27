@@ -6,10 +6,10 @@ title: "RSA 101 Finals JUSTv5"
 
 ## Challenge
 
-This challenge is about a server send out RSA modulus `N`, a public exponent `e`, and a value `H = pow(e*d, N-p-q, N)`, then asks for the totient (φ) in hex. After you submit φ, the server returns the encrypted flag.
+This challenge is about a server send out RSA modulus $N$, a public exponent $e$, and a value $H \equiv (ed)^{N-p-q} \pmod N$, then asks for the totient (φ) in hex. After you submit φ, the server returns the encrypted flag.
 
 
-When connecting with `nc`, the server prints:
+When connecting with $nc$, the server prints:
 ```
 Can you solve this RSA mystery..?
 {"N": 2628966957595745200..., "e": 65537}
@@ -239,4 +239,17 @@ flag = pow(c, d_, N)
 print(bytes.fromhex(f"{flag:02x}"))
 #JUST{89d2555c6359010daa498cee87bbfe89}
 ```
+
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
