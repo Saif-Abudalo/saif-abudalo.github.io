@@ -124,7 +124,9 @@ Knowing that $A \approx K \cdot L$, we assume the true $K$ is a divisor of $A$. 
 so $K$ will be:
 
 $$K = \_k + x \cdot e$$
+
 where
+
 $$
 x = r_p
 $$
@@ -180,7 +182,6 @@ divs = divisors(A)
 for D in divs:
     if D % e == _k:
         rp = (D - _k) // e
-        
         if 0 < rp < 2**70:
             x = rp
             break
