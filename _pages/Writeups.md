@@ -34,5 +34,5 @@ title: "Writeups"
 <p><a href="/Writeups/AES-NCSC-Finals-2024/" style="text-decoration: none; font-weight: bold;">AES NCSC Finals 2024</a></p>
 
 
-
+<p><a href="/Writeups/RSA-NCSC-Finals-2024/" style="text-decoration: none; font-weight: bold;">RSA NCSC Finals 2024</a></p>
 
