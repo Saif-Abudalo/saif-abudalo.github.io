@@ -1,3 +1,7 @@
+---
+permalink: /Writeups/AES-NCSC-Finals-2024/
+title: "AES NCSC Finals 2024"
+---
 
 
 ## <a href="#challenge-code">Challenge</a>
@@ -214,3 +218,17 @@ else:
 
 **Reference:**  
 [Approximate Divisor Multiples Factoring with Only a Third of the Secret CRT-Exponents](https://eprint.iacr.org/2022/271.pdf)
+
+
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
