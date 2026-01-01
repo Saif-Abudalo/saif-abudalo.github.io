@@ -52,9 +52,11 @@ $$\tilde{d}_q = d_q + r_q(q-1)$$
 Since `helper1` and `helper2` are the MSBs (shifted by $l=300$):
 
 $$h_1 = \tilde{d}_p \gg l$$
+
 $$h_2 = \tilde{d}_q \gg l$$
 
 We can rewrite $\tilde{d}_p$ and $\tilde{d}_q$ as:
+
 $$\tilde{d}_p = h_1 \cdot 2^l + x_p$$
 
 $$\tilde{d}_q = h_2 \cdot 2^l + x_q$$
