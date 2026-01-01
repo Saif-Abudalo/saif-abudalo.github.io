@@ -1,6 +1,6 @@
 ---
-permalink: /Writeups/AES-NCSC-Finals-2024/
-title: "AES NCSC Finals 2024"
+permalink: /Writeups/RSA-NCSC-Finals-2024/
+title: "RSA NCSC Finals 2024"
 ---
 
 
