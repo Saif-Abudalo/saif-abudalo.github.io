@@ -36,7 +36,7 @@ title: "Resources"
 - [**Hash Analyzer**](https://www.tunnelsup.com/hash-analyzer/) – Quick hash-type detection and analysis.
 - [**Hashcat Example Hashes**](https://hashcat.net/wiki/doku.php?id=example_hashes) – Reference list of supported hash formats for Hashcat.
 - [**CrackStation**](https://crackstation.net/) – Online password-hash cracking using large rainbow tables.  
-- [**Crunch**](https://sourceforge.net/projects/crunch-wordlist/) – Wordlist generator.
+- [**Crunch**](https://www.golinuxcloud.com/wordlist-generator/) – Wordlist generator.
 
 
 ---
