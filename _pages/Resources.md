@@ -34,9 +34,10 @@ title: "Resources"
 
 ## Hash
 - [**Hash Identifier**](https://hashes.com/en/tools/hash_identifier) – Detect the hashing algorithm of a given hash string.  
-- [**Hash Analyzer**](https://www.tunnelsup.com/hash-analyzer/) – Quick hash-type detection and analysis.  
-- [**CrackStation**](https://crackstation.net/) – Online password-hash cracking using large rainbow tables.  
+- [**Hash Analyzer**](https://www.tunnelsup.com/hash-analyzer/) – Quick hash-type detection and analysis.
 - [**Hashcat Example Hashes**](https://hashcat.net/wiki/doku.php?id=example_hashes) – Reference list of supported hash formats for Hashcat.
+- [**CrackStation**](https://crackstation.net/) – Online password-hash cracking using large rainbow tables.  
+- [**Crunch**](https://sourceforge.net/projects/crunch-wordlist/) – Wordlist generator.
 
 
 ---
