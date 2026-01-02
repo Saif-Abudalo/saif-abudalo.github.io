@@ -27,7 +27,6 @@ title: "Resources"
 - [**FactorDB**](https://factordb.com/index.php) – Database of known number factorizations.  
 - [**Planetcalc Substitution Solver**](https://planetcalc.com/8047/) / [Quipqiup](https://quipqiup.com/) / [Guballa](https://www.guballa.de/substitution-solver) – Substitution cipher solvers.  
 - [**Morse Decoder**](https://morsecode.world/international/decoder/audio-decoder-adaptive.html) – Audio Morse-code decoder.
-- [**asn1js**](https://lapo.it/asn1js/) – Decode **ASN.1** data (e.g., certificates).  
 
 
 ---
