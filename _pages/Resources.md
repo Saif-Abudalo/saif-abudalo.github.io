@@ -18,7 +18,7 @@ title: "Resources"
 ----
 
 ## Cryptography
-- [**CryptoHack**](https://cryptohack.org/) – Free, fun platform for learning cryptography.  
+- [**CryptoHack**](https://cryptohack.org/) – Fun platform for learning cryptography.  
 - [**SageMath**](https://www.sagemath.org/) – Open-source mathematical software for advanced crypto/math tasks.  
 - [**Brilliant**](https://brilliant.org/) – Learn number-theory concepts useful for cryptography.  
 - [**Alpertron**](https://www.alpertron.com.ar/ECM.HTM) – Integer factorization calculator.  
