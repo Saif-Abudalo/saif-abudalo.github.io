@@ -44,7 +44,6 @@ title: "Resources"
 ## Web Security
 - [PortSwigger Labs](https://portswigger.net/web-security) – Best  resource for learning web security.  
 - [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) – Browser proxy.
-- **Burp Suite Extensions (Recommended)**: Logger++, Autorize, Turbo Intruder, Upload Scanner, Collaborator Everywhere *(most require Burp Suite Pro)*.
 - [Hacksplaining](https://www.hacksplaining.com/) – web security tutorials
 - [SQLMAP](https://www.kali.org/tools/sqlmap/)  – Automated SQL injection and database takeover tool.  
 - [SSRFmap](https://github.com/swisskyrepo/SSRFmap) – find and exploit SSRF vuln. 
