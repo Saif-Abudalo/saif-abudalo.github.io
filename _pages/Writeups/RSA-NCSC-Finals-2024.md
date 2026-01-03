@@ -117,7 +117,7 @@ $$f(x) = x^2 - (1 - A(N-1))x + A \equiv 0 \pmod e$$
 
 The roots of this equation correspond to $K \pmod e$ and $L \pmod e$.
 
-Since $e$ is relatively small and the actual value of $K$ is much larger than $e$, the root we found $\_k$ only gives us $K \pmod e$. 
+Since $e$ is relatively small and the actual value of $K$ is much larger than $e$, the root we found $k$ only gives us $K \pmod e$. 
 
 Knowing that $A \approx K \cdot L$, we assume the true $K$ is a divisor of $A$. and satisfies $K \equiv \\_k \pmod{e}$.
 
