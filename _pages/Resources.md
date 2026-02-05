@@ -69,11 +69,12 @@ title: "Resources"
 
 ---
 
-## Reverse Engineering
-- [**Online x86 Assembler/Disassembler**](https://defuse.ca/online-x86-assembler.htm#disassembly) – Browser-based assembly and disassembly tool.  
-- [**IDA Pro**](https://hex-rays.com/ida-pro/) – Industry-standard interactive disassembler and debugger.  
+## Reverse Engineering 
+- [**IDA Pro**](https://hex-rays.com/ida-pro/) – Best-known tool for reverse engineering executables with interactive analysis.
 - [**Ghidra**](https://www.kali.org/tools/ghidra//) – Open-source software reverse engineering suite.
 - [**x64dbg**](https://x64dbg.com/) – Open-source debugger for Windows binaries (x86/x64).
+- [**Online x86 Assembler/Disassembler**](https://defuse.ca/online-x86-assembler.htm#disassembly) – Browser-based assembly and disassembly tool.   
+
 
 
 ---
