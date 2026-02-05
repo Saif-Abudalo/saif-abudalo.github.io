@@ -42,49 +42,49 @@ title: "Resources"
 ---
 
 ## Web Security
-- [PortSwigger Labs](https://portswigger.net/web-security) – Best  resource for learning web security.  
-- [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) – Browser proxy.
-- [Hacksplaining](https://www.hacksplaining.com/) – web security tutorials
-- [SQLMAP](https://www.kali.org/tools/sqlmap/)  – Automated SQL injection and database takeover tool.  
-- [SSRFmap](https://github.com/swisskyrepo/SSRFmap) – find and exploit SSRF vuln. 
-- [JS2PDFInjector](https://github.com/cornerpirate/JS2PDFInjector)  – Inject JavaScript into PDFs
-- [URL Encode/Decode](https://www.url-encode-decode.com/)  –  URL Encode and Decode Tool
+- [**PortSwigger Labs**](https://portswigger.net/web-security) – Best  resource for learning web security.  
+- [**FoxyProxy**](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) – Browser proxy.
+- [**Hacksplaining**](https://www.hacksplaining.com/) – web security tutorials
+- [**SQLMAP**](https://www.kali.org/tools/sqlmap/)  – Automated SQL injection and database takeover tool.  
+- [**SSRFmap**](https://github.com/swisskyrepo/SSRFmap) – find and exploit SSRF vuln. 
+- [**JS2PDFInjector**](https://github.com/cornerpirate/JS2PDFInjector)  – Inject JavaScript into PDFs
+- [**URL Encode/Decode**](https://www.url-encode-decode.com/)  –  URL Encode and Decode Tool
 
 ---
 
 ## OSINT
-- [OSINT Framework](https://osintframework.com/) – Comprehensive collection of OSINT tools and resources.  
-- [Social Media OSINT Tools Collection](https://github.com/osintambition/Social-Media-OSINT-Tools-Collection) – Social media intelligence tools.  
-- [Have I Been Pwned](https://haveibeenpwned.com/) – Check if your email or account has been compromised in data breaches.  
-- [Internet Archive](https://web.archive.org/) – Archive of websites and historical content.
-- [Instant Username](https://instantusername.com/#google_vignette) – Search for usernames across multiple social platforms.
+- [**OSINT Framework**](https://osintframework.com/) – Comprehensive collection of OSINT tools and resources.  
+- [**Social Media OSINT Tools Collection**](https://github.com/osintambition/Social-Media-OSINT-Tools-Collection) – Social media intelligence tools.  
+- [**Have I Been Pwned**](https://haveibeenpwned.com/) – Check if your email or account has been compromised in data breaches.  
+- [**Internet Archive**](https://web.archive.org/) – Archive of websites and historical content.
+- [**Instant Username**](https://instantusername.com/#google_vignette) – Search for usernames across multiple social platforms.
 
 ---
 
 ## Digital Forensics
-- [FTK Imager](https://www.exterro.com/digital-forensics-software/ftk-imager) – Tool for acquiring forensic images of drives.  
-- [Autopsy](https://www.autopsy.com/download/) – Open-source tool for analyzing digital evidence.
-- [DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) –  memory acquisition tool for Windows.  
-- [Volatility 3](https://github.com/volatilityfoundation/volatility3) – Advanced memory forensics framework for analyzing RAM captures.  
+- [**FTK Imager**](https://www.exterro.com/digital-forensics-software/ftk-imager) – Tool for acquiring forensic images of drives.  
+- [**Autopsy**](https://www.autopsy.com/download/) – Open-source tool for analyzing digital evidence.
+- [**DumpIt**](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) –  memory acquisition tool for Windows.  
+- [**Volatility 3**](https://github.com/volatilityfoundation/volatility3) – Advanced memory forensics framework for analyzing RAM captures.  
 
 ---
 
 ## Reverse Engineering
-- [Practical Malware Analysis Book](https://www.nostarch.com/malware) – Great reference for RE & malware.
-- [Online x86 Assembler/Disassembler](https://defuse.ca/online-x86-assembler.htm#disassembly) – Browser-based assembly and disassembly tool.  
-- [IDA Pro](https://hex-rays.com/ida-pro/) – Industry-standard interactive disassembler and debugger.  
-- [Ghidra](https://www.kali.org/tools/ghidra//) – Open-source software reverse engineering suite.  
+- [**Practical Malware Analysis Book**](https://www.nostarch.com/malware) – Great reference for RE & malware.
+- [**Online x86 Assembler/Disassembler**](https://defuse.ca/online-x86-assembler.htm#disassembly) – Browser-based assembly and disassembly tool.  
+- [**IDA Pro**](https://hex-rays.com/ida-pro/) – Industry-standard interactive disassembler and debugger.  
+- [**Ghidra**](https://www.kali.org/tools/ghidra//) – Open-source software reverse engineering suite.  
 
 ---
 
 ## Search Engines 
-- [DuckDuckGo](https://duckduckgo.com/) & [Qwant](https://www.qwant.com/) – Privacy-focused search engines.  
-- [Startpage](https://www.startpage.com/) – Anonymous search engine using Google results.  
+- [**DuckDuckGo**](https://duckduckgo.com/) & [**Qwant**](https://www.qwant.com/) – Privacy-focused search engines.  
+- [**Startpage**](https://www.startpage.com/) – Anonymous search engine using Google results.  
 
 ---
 
 ## Additional Resources
-- [Dr. Qasem](https://www.qasem-abu-al-haija.com/) – Research papers and cybersecurity resources from an academic expert.
+- [Dr. Qasem Abu Al-Haija](https://www.qasem-abu-al-haija.com/) – Research papers and cybersecurity resources from an academic expert.
 - [Connor](https://connor-mccartney.github.io/) – Crypto writeups and other resources.
 
 
