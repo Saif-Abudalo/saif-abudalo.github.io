@@ -70,10 +70,11 @@ title: "Resources"
 ---
 
 ## Reverse Engineering
-- [**Practical Malware Analysis Book**](https://www.nostarch.com/malware) – Great reference for RE & malware.
 - [**Online x86 Assembler/Disassembler**](https://defuse.ca/online-x86-assembler.htm#disassembly) – Browser-based assembly and disassembly tool.  
 - [**IDA Pro**](https://hex-rays.com/ida-pro/) – Industry-standard interactive disassembler and debugger.  
-- [**Ghidra**](https://www.kali.org/tools/ghidra//) – Open-source software reverse engineering suite.  
+- [**Ghidra**](https://www.kali.org/tools/ghidra//) – Open-source software reverse engineering suite.
+- [**x64dbg**](https://x64dbg.com/) – Open-source debugger for Windows binaries (x86/x64).
+
 
 ---
 
